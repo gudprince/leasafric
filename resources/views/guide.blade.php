@@ -6,6 +6,7 @@
        <h2 class="py-4">Leasafric  Test API Documentation</h2>
     </div>
     <div class="container">
+      <h4  class="mb-4 mt-4">Getting a resources</h4>
         <!-- HTML generated using hilite.me --><div class="mb-4" style="background: #111111; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.8em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #ffffff">fetch(</span><span style="color: #0086d2">&#39;{{env('APP_URL')}}/api/posts/1&#39;</span><span style="color: #ffffff">)</span>
   <span style="color: #ffffff">.then((response)</span> <span style="color: #ffffff">=&gt;</span> <span style="color: #ffffff">response.json())</span>
   <span style="color: #ffffff">.then((json)</span> <span style="color: #ffffff">=&gt;</span> <span style="color: #ffffff">console.log(json));</span>
