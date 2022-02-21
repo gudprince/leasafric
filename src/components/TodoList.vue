@@ -337,7 +337,7 @@ export default {
     },
      async updateData() {
       const baseUrl = process.env.VUE_APP_BASEURL;
-      let response = (await Axios.get(`${baseUrl}/api/todos`)).data;
+      let response = (await Axios.get(baseUrl+'/api/todos')).data;
       this.todos = response.data;
     },
     async loadData() {
